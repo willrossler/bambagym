@@ -240,7 +240,7 @@ h3 {
 }
 .h4,
 h4 {
-  font-size: 24px;
+  font-size: 26px;
 }
 .h5,
 h5 {
@@ -3972,21 +3972,29 @@ body .btn-eight:hover {
   position: relative;
   width: 100%;
 }
+
+.home-image img {
+  opacity: 70%;
+}
+
 .home-image .image-text {
   position: absolute;
-  left: 20%;
-  top: 18%;
-  font-size: 45px;
-  letter-spacing: 8px;
+  left: 16%;
+  top: 16%;
+  font-size: 70px;
+  line-height: 50px;
+  letter-spacing: 2px;
   color: #fff;
+  font-weight: 500;
 }
 .home-image .mobile-image-text {
   position: absolute;
   left: 5%;
   top: 18%;
-  font-size: 35px;
-  letter-spacing: 4px;
+  font-size: 30px;
+  letter-spacing: 1px;
   color: #fff;
+  line-height: 34px;
 }
 .home-image .contact-text {
   position: absolute;
@@ -5797,13 +5805,13 @@ body .btn-eight:hover {
 }
 .booking-main-menu .send-msg-btn {
   font-family: "gorditamedium";
-  font-size: 18px;
-  width: 200px;
-  line-height: 55px;
+  font-size: 14px;
+  width: 120px;
   color: #000;
   background: #dadada;
   text-align: center;
   transition: all 0.3s ease-in-out;
+  height: 40px;
 }
 .booking-main-menu .send-msg-btn:hover {
   background: var(--prime-one);
@@ -5823,8 +5831,8 @@ body .btn-eight:hover {
 }
 
 .mobileTextHr {
-  width: 52px;
-  border-top: 5px solid;
+  width: 60px;
+  border-top: 4px solid;
   color: #f5aac9;
   opacity: 100%;
 }

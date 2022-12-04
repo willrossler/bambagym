@@ -4,6 +4,7 @@ import HeroBannerThree from "../../components/hero-banner/HeroBannerThree";
 import FooterFour from "../../components/footer/FooterFour";
 import userpic from "../../assets/images/img/abbe.jpg";
 import { borderRadius } from "@mui/system";
+import TrainerCard from "../../components/hero-banner/TrainerCard";
 
 const Training = () => {
   return (
@@ -120,6 +121,10 @@ const Training = () => {
               <div className="mt-100 lg-mt-70 mb-160">
                 <div className="container">
                   <div className="row gx-xxl-5">
+                    <h2 style={{ fontSize: "36px" }}>
+                      LOCATION <hr className="mobileTextHr" />{" "}
+                    </h2>
+
                     <div className="col-lg-8 d-flex order-lg-last pb-50">
                       <div className="map-area-one mt-10 me-lg-4 md-mt-50">
                         <div className="mapouter">
@@ -136,9 +141,10 @@ const Training = () => {
                       </div>
                       {/* /.map-area-one */}
                     </div>
-                    <div className="col-lg-4   order-lg-first">
-                      <h2>Location</h2>
-                      <hr className="mobileTextHr" />
+                    <div
+                      className="col-lg-4   order-lg-first"
+                      style={{ marginBottom: "40px" }}
+                    >
                       <p>Bamba</p>
                       <p style={{ opacity: "50%" }}>Lützengatan 10</p>
                       <p style={{ opacity: "50%" }}>11520 Stockholm</p>
@@ -149,73 +155,14 @@ const Training = () => {
                       {/* /.form-style-one */}
                     </div>
                   </div>
-                  <div className="row mt-80  mx-auto d-flex justify-content-center ">
-                    <h3>
-                      PERSONAL TRAINERS <hr className="mobileTextHr" />
-                    </h3>
-
-                    <div
-                      className="col-xs-6 col-sm-6 col-lg-3  mt-90 p-2"
-                      style={{ maxWidth: "40%" }}
-                    >
-                      <img src={userpic} alt="" className="user-image" />
-                      <hr
-                        style={{ backgroundColor: "grey", marginTop: "30px" }}
-                      />
-                      <div className="pt-40">
-                        <p>Abb Joof</p>
-                        <p style={{ opacity: "0.5" }}>Abb Joof</p>
-                        <p>abbe@bamba.se</p>
-                        <p>+46701234567</p>
-                      </div>
-                    </div>
-                    <div
-                      className="col-xs-6 col-sm-6 col-lg-3  mt-90 p-2"
-                      style={{ maxWidth: "40%" }}
-                    >
-                      <img src={userpic} alt="" className="user-image" />
-                      <hr
-                        style={{ backgroundColor: "grey", marginTop: "30px" }}
-                      />
-                      <div className="pt-40">
-                        <p>Abb Joof</p>
-                        <p style={{ opacity: "0.5" }}>Abb Joof</p>
-                        <p>abbe@bamba.se</p>
-                        <p>+46701234567</p>
-                      </div>
-                    </div>
-                    <div
-                      className="col-xs-6 col-sm-6 col-lg-3  mt-90 p-2"
-                      style={{ maxWidth: "40%" }}
-                    >
-                      <img src={userpic} alt="" className="user-image" />
-                      <hr
-                        style={{ backgroundColor: "grey", marginTop: "30px" }}
-                      />
-                      <div className="pt-40">
-                        <p>Abb Joof</p>
-                        <p style={{ opacity: "0.5" }}>Abb Joof</p>
-                        <p>abbe@bamba.se</p>
-                        <p>+46701234567</p>
-                      </div>
-                    </div>
-                    <div
-                      className="col-xs-6 col-sm-6 col-lg-3  mt-90 p-2"
-                      style={{ maxWidth: "40%" }}
-                    >
-                      <img src={userpic} alt="" className="user-image" />
-                      <hr
-                        style={{ backgroundColor: "grey", marginTop: "30px" }}
-                      />
-                      <div className="pt-40">
-                        <p>Abb Joof</p>
-                        <p style={{ opacity: "0.5" }}>Abb Joof</p>
-                        <p>abbe@bamba.se</p>
-                        <p>+46701234567</p>
-                      </div>
-                    </div>
-                  </div>
+                  <h2 style={{ fontSize: "36px" }}>
+                    PERSONAL TRAINERS <hr className="mobileTextHr" />{" "}
+                  </h2>
                 </div>
+              </div>
+              <div className="d-flex flex-row">
+                <TrainerCard />
+                <TrainerCard />
               </div>
 
               <div className="footer-style-four theme-basic-footer">
