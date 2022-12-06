@@ -12,7 +12,7 @@ const Training = () => {
         <HeroBannerFour />
         <div className="fancy-feature-seventeen position-relative mt-160 xl-mt-50 mb-300">
           <div className="container">
-            <div className="row">
+            <div className="row train-links">
               <TrainingItem />
             </div>
           </div>

@@ -177,7 +177,7 @@ const MobileMenu = () => {
                 BOOK
               </Link>
               {/* footer info todo column */}
-              <div className="flex-column">
+              <div className="flex-column pb-80">
                 <div className="pt-4">
                   <p className="text-start" style={{ fontSize: "14px" }}>
                     Bamba{" "}

@@ -46,10 +46,13 @@ const TopNavFour = () => {
                 />
               </Link>
             </div>
-            <div className="right-widget d-flex align-items-center  order-lg-3">
+            <div
+              style={{ lineHeight: "40px" }}
+              className="right-widget d-flex align-items-center  order-lg-3"
+            >
               <Link
                 to="/booking"
-                className="send-msg-btn tran3s d-none d-lg-block fw-bolder"
+                className="send-msg-btn tran3s d-none d-lg-block fw-bolder "
               >
                 BOOK
               </Link>

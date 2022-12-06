@@ -3,16 +3,16 @@ import userpic from "../../assets/images/img/abbe.jpg";
 
 const TrainerCard = () => {
   return (
-    <div className="row  mx-auto d-flex justify-content-center ">
+    <div className="d-flex row ">
       <div
-        className="col-xs-6 col-sm-6 col-lg-3  mt-90 p-2"
+        className="col-xs-6 col-sm-6 col-lg-3  w-100"
         style={{ maxWidth: "100%" }}
       >
         <img
           src={userpic}
           alt=""
           className="user-image"
-          style={{ width: "130px", height: "130px" }}
+          style={{ width: "200px", height: "200px" }}
         />
         <hr
           style={{ backgroundColor: "#fff", opacity: "20%", marginTop: "30px" }}

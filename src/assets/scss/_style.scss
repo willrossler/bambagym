@@ -4067,11 +4067,13 @@ body .btn-eight:hover {
   margin-top: 10px;
   margin-right: 10px;
 }
+
 .train-active {
   color: #f5aac9;
 }
 .train-main-active {
   color: #fff;
+  opacity: 0.5;
 }
 .train-deactive {
   opacity: 0.5;

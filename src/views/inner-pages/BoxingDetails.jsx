@@ -4,6 +4,7 @@ import FooterFour from "../../components/footer/FooterFour";
 import BoxingInfo from "../../components/training/BoxingInfo";
 import boxingpic from "../../assets/images/img/boxingPic.png";
 import userpic from "../../assets/images/img/abbe.jpg";
+import TrainerCard from "../../components/hero-banner/TrainerCard";
 
 const MartialArts = () => {
   return (
@@ -101,26 +102,11 @@ const MartialArts = () => {
                       <BoxingInfo />
                     </div>
                     <div className="col-xl-6 col-lg-6 p-5">
-                      <div className="row ">
+                      <div className="d-flex flex-column justify-content-start">
                         <img src={boxingpic} alt="" className="" />
-                      </div>
-                      <div className="container pt-60">
-                        <div className="col-lg-6 col-sm-6">
-                          <img src={userpic} alt="" className="user-image" />
-                          <hr
-                            style={{
-                              backgroundColor: "grey",
-                              marginTop: "30px",
-                            }}
-                          />
-                          <div className="pt-40">
-                            <p>Abb Joof</p>
-                            <p style={{ opacity: "0.5" }}>Abb Joof</p>
-                            <p>abbe@bamba.se</p>
-                            <p>+46701234567</p>
-                          </div>
+                        <div className=" ">
+                          <TrainerCard />
                         </div>
-                        <div className="col-lg-6 col-sm-6"></div>
                       </div>
                     </div>
                   </div>

@@ -7,37 +7,37 @@ import pic3 from "../../assets/images/img/Train3.png";
 
 const PageContent = [
   {
-    name: "PERSONAL TRAINING ",
+    name: "PERSONAL TRAINING —",
     routerPath: "/weight-details",
     className: "train-main-active",
   },
   {
-    name: "WEIGHT LIFTING ",
+    name: "WEIGHT LIFTING —",
     routerPath: "/weight-details",
     className: "train-deactive",
   },
   {
-    name: "MARTIAL ARTS",
+    name: "MARTIAL ARTS —",
     routerPath: "/martial-details",
     className: "train-main-active",
   },
   {
-    name: "BOXING",
+    name: "BOXING —",
     routerPath: "/boxing-details",
     className: "train-deactive",
   },
   {
-    name: "MENTAL TRAINING",
+    name: "MENTAL TRAINING —",
     routerPath: "#",
     className: "train-main-active ",
   },
   {
-    name: "BOOT CAMP",
+    name: "BOOT CAMP —",
     routerPath: "#",
     className: "train-deactive",
   },
   {
-    name: "PT ACADEMY",
+    name: "PT ACADEMY —",
     routerPath: "#",
     className: "train-main-active",
   },
@@ -136,7 +136,7 @@ const TrainingItem = () => {
                 {PageContent.map((val, i) => (
                   <li key={i}>
                     <Link className="py-1" to={val.routerPath}>
-                      <h4 className={`${val.className}`}>{val.name}—</h4>
+                      <h4 className={`${val.className}`}>{val.name}</h4>
                     </Link>
                   </li>
                 ))}

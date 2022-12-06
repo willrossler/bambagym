@@ -5,7 +5,7 @@ import FooterFour from "../../components/footer/FooterFour";
 import userpic from "../../assets/images/img/abbe.jpg";
 import { borderRadius } from "@mui/system";
 import TrainerCard from "../../components/hero-banner/TrainerCard";
-
+import TrainerCardMobile from "../../components/hero-banner/TrainerCardMobile";
 const Training = () => {
   return (
     <Fragment>
@@ -17,6 +17,7 @@ const Training = () => {
               <HeroBannerThree />
               <div className="mt-100 lg-mt-70 mb-160">
                 <div className="container">
+                  {/* todo */}
                   <div className="row gx-xxl-5">
                     <div className="col-lg-4   order-lg-first">
                       <h1>
@@ -51,55 +52,22 @@ const Training = () => {
                     </div>
                   </div>
                   <div className="row mt-80">
-                    <h2>PERSONAL TRAINERS</h2>
+                    <h2>
+                      PERSONAL TRAINERS
+                      <hr className="textHr" />
+                    </h2>
                     <div className="d-flex justify-content-center">
-                      <div className="col-sm-6 col-lg-3 p-2 mt-30 ">
-                        <img src={userpic} alt="" className="user-image" />
-                        <hr
-                          style={{ backgroundColor: "grey", marginTop: "30px" }}
-                        />
-                        <div className="mt-40">
-                          <p>Abb Joof</p>
-                          <p style={{ opacity: "0.5" }}>Abb Joof</p>
-                          <p>abbe@bamba.se</p>
-                          <p>+46701234567</p>
-                        </div>
+                      <div className="col-sm-6 col-lg-3 p-2 mt-30 flex-row ">
+                        <TrainerCard />
                       </div>
-                      <div className="col-sm-6 col-lg-3 p-2 mt-30">
-                        <img src={userpic} alt="" className="user-image" />
-                        <hr
-                          style={{ backgroundColor: "grey", marginTop: "30px" }}
-                        />
-                        <div className="mt-40">
-                          <p>Abb Joof</p>
-                          <p style={{ opacity: "0.5" }}>Abb Joof</p>
-                          <p>abbe@bamba.se</p>
-                          <p>+46701234567</p>
-                        </div>
+                      <div className="col-sm-6 col-lg-3 p-2 mt-30 flex-row ">
+                        <TrainerCard />
                       </div>
-                      <div className="col-sm-6 col-lg-3 p-2 mt-30">
-                        <img src={userpic} alt="" className="user-image" />
-                        <hr
-                          style={{ backgroundColor: "grey", marginTop: "30px" }}
-                        />
-                        <div className="mt-40">
-                          <p>Abb Joof</p>
-                          <p style={{ opacity: "0.5" }}>Abb Joof</p>
-                          <p>abbe@bamba.se</p>
-                          <p>+46701234567</p>
-                        </div>
+                      <div className="col-sm-6 col-lg-3 p-2 mt-30 flex-row ">
+                        <TrainerCard />
                       </div>
-                      <div className="col-sm-6 col-lg-3 p-2 mt-30">
-                        <img src={userpic} alt="" className="user-image" />
-                        <hr
-                          style={{ backgroundColor: "grey", marginTop: "30px" }}
-                        />
-                        <div className="mt-40">
-                          <p>Abb Joof</p>
-                          <p style={{ opacity: "0.5" }}>Abb Joof</p>
-                          <p>abbe@bamba.se</p>
-                          <p>+46701234567</p>
-                        </div>
+                      <div className="col-sm-6 col-lg-3 p-2 mt-30 flex-row ">
+                        <TrainerCard />
                       </div>
                     </div>
                   </div>
@@ -160,9 +128,13 @@ const Training = () => {
                   </h2>
                 </div>
               </div>
-              <div className="d-flex flex-row">
-                <TrainerCard />
-                <TrainerCard />
+              <div className="d-flex flex-row px-3 gap-3">
+                <TrainerCardMobile />
+                <TrainerCardMobile />
+              </div>
+              <div className="d-flex flex-row px-3 gap-3">
+                <TrainerCardMobile />
+                <TrainerCardMobile />
               </div>
 
               <div className="footer-style-four theme-basic-footer">
